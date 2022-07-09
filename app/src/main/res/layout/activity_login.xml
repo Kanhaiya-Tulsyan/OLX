@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight=".65"
+     android:orientation="vertical"
+     android:background="@color/grey">
+
+  <androidx.appcompat.widget.AppCompatTextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/OLX"
+      android:textColor="@color/purple_500"
+      android:textSize="@dimen/dp_84"
+      android:layout_gravity="center"
+      android:textStyle="bold"
+      android:layout_marginTop="@dimen/dp_180">
+
+  </androidx.appcompat.widget.AppCompatTextView>
+
+  <androidx.appcompat.widget.AppCompatTextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/INDIA"
+      android:textColor="@color/purple_500"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:layout_gravity="center"
+      android:textStyle="bold"
+      >
+
+  </androidx.appcompat.widget.AppCompatTextView>
+
+
+
+
+ </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".35"
+    android:orientation="vertical"
+    android:background="@color/purple_500">
+ 
+ 
+ <LinearLayout
+     android:layout_width="280dp"
+     android:layout_height="wrap_content"
+  android:orientation="horizontal"
+  android:layout_gravity="center|top"
+  android:layout_marginTop="24dp"
+  android:background="@color/white"
+     android:id="@+id/ll_google">
+  <ImageView
+      android:padding="4dp"
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:src="@drawable/common_google_signin_btn_icon_dark"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      android:text="CONTINUE WITH GOOGLE"
+   android:textColor="@color/purple_500"
+   android:background="@color/white">
+
+  </androidx.appcompat.widget.AppCompatButton>
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="280dp"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_gravity="center|top"
+     android:layout_marginTop="24dp"
+     android:background="@color/white"
+     android:id="@+id/ll_fb">
+  <ImageView
+      android:padding="4dp"
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:src="@drawable/facebook"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="CONTINUE WITH FACEBOOK"
+      android:textColor="@color/purple_500"
+      android:background="@color/white">
+
+  </androidx.appcompat.widget.AppCompatButton>
+ </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OLX application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="OLX">OLX</string>
+    <string name="INDIA">INDIA</string>
+    <string name="leading_market">India\'s leading\nmarketplace</string>
+    <string name="find_cars_and_more">Find Cars, Mobiles and more...</string>
+    <string name="str_browse_categories">Browse Categories</string>
+    <string name="title_sell">Sell</string>
+    <string name="what_are_offering">What are you offering?</string>
+</resources>
